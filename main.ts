@@ -7,7 +7,7 @@ class MyStack extends TerraformStack {
     super(scope, id);
 
     new CloudflareProvider(this, "cloudflare", {
-      apiToken: "API_TOKEN_HERE",
+      apiToken: process.env.API_TOKEN,
     });
 
   }

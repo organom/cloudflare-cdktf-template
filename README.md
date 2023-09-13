@@ -68,6 +68,8 @@ Run as
 npm i
 npm run get
 npm run build
+
+export API_TOKEN="your_token_here" # or add to .env file
 cdktf deploy
 ```
 
