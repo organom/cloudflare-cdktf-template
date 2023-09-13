@@ -2,7 +2,7 @@
 A cdktf template for cloudflare
 
 
-## Initialized as
+## Was Initialized as
 
 ```bash
 $ cdktf init --template="typescript"
@@ -63,7 +63,7 @@ index 5eed92c..172f1d1 100644
  const app = new App();
 ```
 
-## Changes after using as template
+## Changes After Using from Template
 * Rename `cloudflare-cdktf` into `your_project_name`
 * Cleanup this readme
 
