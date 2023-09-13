@@ -65,6 +65,7 @@ index 5eed92c..172f1d1 100644
 
 ## Changes After Using from Template
 * Rename `cloudflare-cdktf` into `your_project_name`
+* Change `cdktf.json` -> `projectId` into a new GUID
 * Cleanup this readme
 
 
