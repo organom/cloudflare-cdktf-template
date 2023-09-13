@@ -53,7 +53,7 @@ index 5eed92c..172f1d1 100644
      super(scope, id);
 +
 +		new CloudflareProvider(this, "cloudflare", {
-+			apiToken: "API_TOKEN_HERE",
++			apiToken: process.env.API_TOKEN,
 +		});
 
 -    // define resources here
