@@ -36,12 +36,6 @@ Add to `cdktf.json`
   (...)
 ```
 
-Run
-```bash
-npm i
-cdktf get
-```
-
 Change `main.ts` with:
 ```diff
 diff --git a/main.ts b/main.ts
@@ -69,8 +63,11 @@ index 5eed92c..172f1d1 100644
  const app = new App();
 ```
 
-Run
+Run as
 ```bash
+npm i
+npm run get
 npm run build
 cdktf deploy
 ```
+
